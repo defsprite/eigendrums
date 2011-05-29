@@ -1,0 +1,8 @@
+#N canvas 0 22 450 300 10;
+#X obj 199 79 adc~;
+#X obj 200 178 dac~;
+#X obj 199 121 eigendrums;
+#X connect 0 0 2 0;
+#X connect 0 1 2 0;
+#X connect 2 0 1 0;
+#X connect 2 1 1 1;
